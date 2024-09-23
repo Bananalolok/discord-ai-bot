@@ -1,0 +1,7 @@
+nextcord
+aiohttp
+aiofiles
+Pillow
+asyncio
+uuid
+base64
