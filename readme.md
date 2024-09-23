@@ -18,8 +18,8 @@ Before installing and running the bot, make sure you have the following installe
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-bot-repo.git
-cd your-bot-repo
+git clone https://github.com/Bananalolok/discord-ai-bot.git
+cd discord-ai-bot
 ```
 
 ### 2. Install dependencies
