@@ -215,8 +215,8 @@ class MJ(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @nextcord.slash_command(guild_ids=[1066217739565420554])
-    async def broo(self, inter: nextcord.Interaction, prompt: str):
+    @nextcord.slash_command()
+    async def imagine(self, inter: nextcord.Interaction, prompt: str):
         await inter.response.defer()
         file_uuid = uuid.uuid4()
         files = []
