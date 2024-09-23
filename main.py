@@ -2,7 +2,7 @@ import nextcord
 from nextcord.ext import commands
 import config
 
-bot = commands.Bot(command_prefix='!', intents=nextcord.Intents.all(), default_guild_ids=[1066217739565420554])
+bot = commands.Bot(command_prefix='!', intents=nextcord.Intents.all())
 
 @bot.event
 async def on_ready():
